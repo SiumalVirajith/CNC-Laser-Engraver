@@ -1,31 +1,41 @@
-# CNC Laser Engraver – Designed by Siumal Virajith & Shalinda Asanka
+# 🔧 CNC Laser Engraver Project
 
-This is a custom-built CNC laser engraving machine project, developed for hobbyist and educational purposes.
+> Built by **Siumal Virajith** & **Shalinda Asanka**  
+> 40W LaserTree | GRBL Firmware | LightBurn Software | Custom Aluminum Frame
 
-## 💡 Features
-- 40W LaserTree diode laser module
-- GRBL firmware (Arduino-based)
-- Operated via LightBurn software
-- Frame made of V-slot aluminum (2040 profiles)
-- Dual stepper motors for Y-axis
-- Designed in SolidWorks
+---
 
-## 📂 Project Files
-- `/cad` – SolidWorks and STEP models
-- `/firmware` – GRBL config files
-- `/images` – Renders and photos of the machine
-- `/lightburn` – Sample LightBurn project files (`.lbrn2`)
+## 📌 Overview
 
-## 🛠 Technologies Used
-- GRBL Firmware
-- LightBurn Software
-- LaserTree 40W Module
-- SolidWorks
-- Stepper Drivers and V-Wheels
+This project is a fully custom-built **CNC laser engraving machine**, developed as a personal engineering project. It uses open-source technologies to achieve high-precision engraving and cutting on various materials like wood, acrylic, leather, and cardboard.
 
-## 👤 Authors
-- Siumal Virajith  
-- Shalinda Asanka
+---
 
-## 🔗 LinkedIn Project Link
-[Add your LinkedIn Project link here]
+## 🧰 Technologies Used
+
+- **Hardware:**
+  - 40W **LaserTree Diode Laser**
+  - **Stepper Motors (NEMA 17)**
+  - **V-Slot Aluminum Extrusion Frame**
+  - GT2 Timing Belts & V-Wheels
+
+- **Electronics & Firmware:**
+  - **Arduino UNO** running **GRBL Firmware**
+  - A4988 Stepper Motor Drivers
+
+- **Software:**
+  - **LightBurn** for laser control and design
+  - **SolidWorks** for mechanical CAD design
+
+---
+
+## 📁 Folder Structure
+
+```bash
+CNC-Laser-Engraver/
+├── cad/         # SolidWorks and STEP files of the frame and parts
+├── firmware/    # GRBL configuration and parameters
+├── images/      # Rendered models and real machine photos
+├── lightburn/   # LightBurn design files (.lbrn, .lbrn2)
+├── printjobs/   # Exported G-code or test print job files
+└── README.md    # Project description and setup instructions
